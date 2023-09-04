@@ -41,5 +41,21 @@
 
 .h1-homepage {
     display: flex;
-    align-content:center ;
+    
+}
+
+
+.program-conteiner img {
+    display: flex;
+    max-width: 20%;
+}
+
+/* .Program-conteiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
+} */
+
+.homepage-content {
+    display: grid;
+    grid-template-columns: 4fr;
 }
