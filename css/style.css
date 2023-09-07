@@ -1,3 +1,15 @@
+/* ------------list------------ */
+/* 1:header */
+/* 2: footer */
+/* 3: Homepage */
+/* 4: exhibitions */
+/* 5: events */
+/* 6: information */
+/* 7: school */
+/* 8: media querys */
+
+/* -------------------------------------------------------------------------- */
+
 /**header**/
 .logo img{
     max-width: 120px;
@@ -32,6 +44,7 @@
 
 .search-bar {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Footer */
@@ -87,13 +100,6 @@ main {
     
     
 }
-
-
-
-/* .Program-conteiner {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(240px, 1fr));
-} */
 
 .homepage-content {
     width: 100%;
@@ -180,12 +186,31 @@ main {
 .h1-exhibition {
     color: white;
     justify-content: center;
+    margin-top: 0px;
 }
 .h1-exhibition img {
     max-width: 1600px;
     max-height: 400px;
+    margin-top: 0px;
 }
 
 main{
     background-color: #B9B4C7;
 }
+
+
+
+
+
+
+
+
+/* media querys */
+
+/* media querys for header */
+@media (max-width:1080px) {
+    .search-bar {
+        display: none;
+    }
+}
+
