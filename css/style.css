@@ -2,7 +2,9 @@
 .logo img{
     max-width: 120px;
     max-height: 100px;
-    align-self: center;
+    /* align-self: center; */
+    display: flex;
+    flex-wrap: wrap;
     
 }
 
@@ -17,17 +19,19 @@
     max-height: 140px;
     position: sticky;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .header-text {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
     gap: 140px;
 }
 
 .search-bar {
-    
+    display: flex;
 }
 
 /* Footer */
@@ -163,4 +167,25 @@ main {
     font-weight: bolder;
     font-size: 20px;
     color: #000;
+}
+
+
+
+
+/* exhibitions */
+
+
+
+
+.h1-exhibition {
+    color: white;
+    justify-content: center;
+}
+.h1-exhibition img {
+    max-width: 1600px;
+    max-height: 400px;
+}
+
+main{
+    background-color: #B9B4C7;
 }
