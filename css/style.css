@@ -68,7 +68,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     
-;
 
 }
 .newsletter-form {
@@ -104,19 +103,18 @@ label[for="Email"]
 
 /**homepage**/
 
-main {
+/* main {
     flex: 1;
     max-width: 1400px;
     justify-content: space-evenly;
 }
-
+ */
 .h1-homepage {
     font-size: 40px;
     font-family: 'inter';
-    position: relative;
-    
-    
+    text-align: center;
 }
+
 
 .homepage-content {
     width: 100%;
