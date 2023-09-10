@@ -251,12 +251,16 @@ main{
         flex-wrap: wrap;
     }
 }
+
 @media (max-width:1000px) {
     .h1-homepage{
         font-size: 30px;
     }
 }
-@media (max-width:1000px) {
+
+
+
+@media(max-width:1000px) {
     .header-text {
         display: flex;
         flex-direction: row;
@@ -296,5 +300,26 @@ main{
     .header-text{
         display: flex;
         gap: 5px;
+    }
+}
+
+
+
+@media (max-width:450px) {
+    .h1-homepage{
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:415px) {
+    .Program-conteiner1 img,
+    .Program-conteiner2 img,
+    .Program-conteiner3 img,
+    .Program-conteiner4 img,
+    .Program-conteiner5 img,
+    .Program-conteiner6 img {
+        display: flex;
+        width: 100%;
     }
 }
