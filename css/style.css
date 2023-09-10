@@ -193,8 +193,8 @@ label[for="Email"]
 
 
 .h1-exhibition {
-    color: white;
-    justify-content: center;
+    color: solid black;
+    text-align: center;
 }
 .h1-exhibition img {
 
@@ -206,6 +206,27 @@ main{
     background-color: #B9B4C7;
 }
 
+.visit-exhibitions,
+.exhibtion-text2,
+.exhibtion-text3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1920px;
+
+}
+
+.visit-exhibitions p{
+    max-width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.visit-exhibitions img{
+    max-width: 1920px;
+    max-height: 500px;
+}
 
 
 
