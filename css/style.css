@@ -235,7 +235,12 @@ main{
 }
 
 .biology-medicine {
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.biology-medicine p{
+    max-width: 670px;
 }
 
 
