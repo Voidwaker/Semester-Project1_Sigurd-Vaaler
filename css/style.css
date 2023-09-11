@@ -250,6 +250,28 @@ main{
 
 
 
+
+
+
+
+/* EVENTS */
+.all-events {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.Professor-event,
+.sleepover,
+.energetica-event{
+    border: 2px solid black;
+    max-width: 400px;
+}
+
+
+
 /* media querys */
 
 /* media querys for header */
