@@ -239,8 +239,12 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
 }
-.biology-medicine p{
-    max-width: 670px;
+.biology-medicine p,
+.biology-h2{
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 
