@@ -243,8 +243,7 @@ main {
 }
 
 .event-picture img {
-  max-width: 1920px;
-  height: 500px;
+  max-width: 100%;
 }
 
 .events {
@@ -275,10 +274,25 @@ main {
 }
 
 .professor-series {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.event-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
-.Energetica-series img {
-  max-width: 400px;
+.event-item img {
+  max-width: 100%;
+  height: auto;
+}
+.event-text {
+  padding: 20px;
+}
+
+.explanation {
+  margin: 2%;
 }
 
 /* media querys */
