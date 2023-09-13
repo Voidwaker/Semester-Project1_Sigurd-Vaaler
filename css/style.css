@@ -194,15 +194,13 @@ main {
   flex-direction: row;
   justify-content: space-evenly;
 }
-
-.visit-exhibitions img {
+.visit-exhibitions {
   max-width: 1920px;
-  height: 500px;
 }
-
 .Cosmology-picture img,
 .mammoth-picture img,
-.heart-picture img {
+.heart-picture img,
+.exhibition-img img {
   max-width: 100%;
   height: 500px;
 }
