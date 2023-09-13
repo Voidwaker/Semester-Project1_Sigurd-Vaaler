@@ -18,7 +18,8 @@ header {
 }
 .primary-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 20px;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -55,9 +56,11 @@ header {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
+  font-size: 20px;
 }
 .header-text ul li a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 /* Footer */
