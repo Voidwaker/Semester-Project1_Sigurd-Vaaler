@@ -247,13 +247,36 @@ main {
   height: 500px;
 }
 
+.events {
+  position: relative;
+}
+.event-picture {
+  position: relative;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0, 7);
+  padding: 10px;
+  color: #ffff;
+}
+
 .Professor-event,
 .sleepover,
 .energetica-event {
   border: 2px solid black;
   max-width: 400px;
+  margin: 10px;
 }
 
+.professor-series {
+  margin-top: 20px;
+}
 .Energetica-series img {
   max-width: 400px;
 }
