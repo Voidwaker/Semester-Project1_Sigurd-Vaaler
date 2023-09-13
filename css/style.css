@@ -242,6 +242,11 @@ main {
   justify-content: space-evenly;
 }
 
+.event-picture img {
+  max-width: 1920px;
+  height: 500px;
+}
+
 .Professor-event,
 .sleepover,
 .energetica-event {
