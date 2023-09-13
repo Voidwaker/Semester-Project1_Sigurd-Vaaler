@@ -276,6 +276,7 @@ main {
 .professor-series {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 20px;
 }
 .event-item {
   display: flex;
@@ -295,6 +296,10 @@ main {
   margin: 2%;
 }
 
+.event-text {
+  border: 2px solid black;
+  margin: 5px;
+}
 /* media querys */
 
 /* media querys for header */
