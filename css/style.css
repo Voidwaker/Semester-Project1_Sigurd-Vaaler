@@ -63,6 +63,9 @@ header {
   color: white;
 }
 
+label[for="search"] {
+  display: none;
+}
 /* hamburgermeny */
 /* opted into not having a hamburgermy */
 /* Footer */
@@ -91,7 +94,8 @@ footer {
   font-size: 18px;
   margin-bottom: 0 20px;
 }
-.line {
+.line,
+.line1 {
   height: 2px;
   background-color: #000;
 }
@@ -436,8 +440,12 @@ main {
 }
 
 @media (max-width: 1115px) {
-  .footer-section1,
   .footer-section2 {
     display: none;
+  }
+}
+@media (max-width: 1115px) {
+  .footer-section3,
+  .line1 {
   }
 }
