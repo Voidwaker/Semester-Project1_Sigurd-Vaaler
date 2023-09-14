@@ -95,7 +95,7 @@ header {
   height: 26px;
 
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
 }
 
 .menu__btn > span,
@@ -386,7 +386,7 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0, 7);
+  background-color: black(0, 0, 0, 0, 5);
   padding: 10px;
   color: #ffff;
 }
