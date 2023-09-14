@@ -63,7 +63,7 @@ header {
   color: white;
 }
 
-label[for="search"] {
+label[for="search-bar"] {
   display: none;
 }
 /* hamburgermeny */
@@ -459,3 +459,5 @@ main {
     font-weight: 300;
   }
 }
+
+@media (max-width: );
