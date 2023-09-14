@@ -382,6 +382,7 @@ main {
   margin: 0 auto;
   overflow: hidden;
 }
+
 .text-overlay {
   position: absolute;
   bottom: 0;
@@ -394,7 +395,8 @@ main {
 .text-overlay h3,
 .text-overlay p {
   margin: 0;
-  padding: 3px;
+  padding: 5px;
+  background-color: black;
 }
 
 .Professor-event,
