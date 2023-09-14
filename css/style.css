@@ -355,6 +355,10 @@ main {
 .school-information {
   border: 3px solid black;
   padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  font-family: sans-serif;
 }
 
 .school-h1 {
@@ -428,5 +432,12 @@ main {
   .Program-conteiner6 img {
     display: flex;
     width: 100%;
+  }
+}
+
+@media (max-width: 1115px) {
+  .footer-section1,
+  .footer-section2 {
+    display: none;
   }
 }
