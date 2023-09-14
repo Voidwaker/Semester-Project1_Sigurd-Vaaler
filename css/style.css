@@ -386,9 +386,15 @@ main {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: black(0, 0, 0, 0, 5);
+  background-color: rgba(0, 0, 0, 0, 0.7);
   padding: 10px;
-  color: #ffff;
+  color: #ffffff;
+}
+.text-overlay h1,
+.text-overlay h3,
+.text-overlay p {
+  margin: 0;
+  padding: 3px;
 }
 
 .Professor-event,
