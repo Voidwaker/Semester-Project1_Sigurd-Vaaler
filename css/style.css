@@ -372,34 +372,16 @@ main {
   max-width: 100%;
 }
 
-.events {
-  position: relative;
-  margin-bottom: 10px;
-}
 .event-picture {
   position: relative;
   width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
   overflow: hidden;
   margin-top: 5px;
 }
 
 .text-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0, 0.7);
-  padding: 10px;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-.text-overlay h1,
-.text-overlay h3,
-.text-overlay p {
-  margin: 0;
-  padding: 5px;
-  background-color: black;
+  background-color: #b9b4c7;
+  text-align: center;
 }
 
 .Professor-event,
