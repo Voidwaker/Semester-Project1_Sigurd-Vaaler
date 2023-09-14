@@ -354,6 +354,7 @@ main {
 
 .school-information {
   border: 3px solid black;
+  padding: 10px;
 }
 
 .school-h1 {
