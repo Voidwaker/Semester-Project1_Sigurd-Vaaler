@@ -179,11 +179,7 @@ button:hover {
   flex-wrap: wrap;
   width: 400px;
   justify-content: space-evenly;
-}
-
-.program-information {
   border: 2px solid black;
-  height: 250px;
 }
 
 .cta {
@@ -192,8 +188,12 @@ button:hover {
   border-radius: 5px;
   padding: 15px 2%;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 16px;
   color: #000;
+}
+.cta:hover {
+  background-color: black;
+  color: #ffff;
 }
 
 /* exhibitions */
@@ -341,6 +341,9 @@ main {
   margin-top: 10px;
   max-width: 350px;
   margin-bottom: 10px;
+  padding: 10px;
+}
+.Opening-hours {
 }
 
 .Admission h3,
