@@ -265,11 +265,18 @@ main {
 }
 
 .button {
+  display: flex;
   padding: 10px 20px;
   background-color: lightgrey;
   color: #000;
   border: none;
   cursor: pointer;
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #000;
+  color: #ffff;
+  font-weight: bolder;
 }
 /* EVENTS */
 .all-events {
