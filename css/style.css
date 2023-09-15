@@ -183,6 +183,11 @@ button:hover {
 }
 
 .cta {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  text-decoration: none;
+  max-width: 100px;
   background-color: #d9d9d9;
   border: none;
   border-radius: 5px;
