@@ -367,6 +367,9 @@ main {
   align-items: center;
   border: solid black 2px;
 }
+main {
+  margin-top: 10px;
+}
 
 /* school */
 .School img {
@@ -477,4 +480,23 @@ main {
   }
 }
 
-@media (max-width: );
+@media (max-width: 530px) {
+  .header-text ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 488px) {
+  .logo img {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-text ul li a,
+  .header-text ul li,
+  .header-text ul {
+    align-self: center;
+    font-size: 12px;
+  }
+}
