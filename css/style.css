@@ -343,6 +343,15 @@ main {
   margin-bottom: 10px;
 }
 
+.Admission h3,
+.Accessibility h3,
+.Food-Drinks h3,
+.Shop h3,
+.Opening-hours h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
 .Information {
   display: flex;
   flex-direction: column;
