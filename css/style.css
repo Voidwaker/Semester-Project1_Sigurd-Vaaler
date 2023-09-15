@@ -501,3 +501,9 @@ main {
     font-size: 12px;
   }
 }
+
+@media (max-width: 308px) {
+  .header-text ul li a {
+    display: none;
+  }
+}
