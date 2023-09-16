@@ -287,7 +287,12 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+.all-events h3 {
+  text-align: center;
+}
+.all-events p {
+  padding: 10px;
+}
 .event-picture img {
   max-width: 100%;
 }
