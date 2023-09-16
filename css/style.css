@@ -1,12 +1,12 @@
 /* ------------list------------ */
-/* 1:header */
-/* 2: footer */
-/* 3: Homepage */
-/* 4: exhibitions */
-/* 5: events */
-/* 6: information */
-/* 7: school */
-/* 8: media querys */
+/* 1:header     line 13- 69 */
+/* 2: footer    line 70-131            */
+/* 3: Homepage   line 132-204*/
+/* 4: exhibitions  line 205-281    */
+/* 5: events      line 282-348  */
+/* 6: information  line 349-387         */
+/* 7: school        line 388-406       */
+/* 8: media querys   line 407-> */
 
 /* -------------------------------------------------------------------------- */
 
@@ -66,8 +66,7 @@ header {
 label[for="search-bar"] {
   display: none;
 }
-/* hamburgermeny */
-/* opted into not having a hamburgermy */
+
 /* Footer */
 footer {
   background-color: #b9b4c7;
