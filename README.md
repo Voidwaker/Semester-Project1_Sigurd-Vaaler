@@ -22,32 +22,34 @@ i tried to make the exhibit page as intuative as possibel for the target audienc
 --special events
 
 spesific events give, alongside with images for uis to include in our design-- i asked "teknsik museum oslo" if i could borrow any of theyr pictures to make the site a bit more outstanding (since this was a school project, i got the greeen light, but the images they provided was too big, or too bad quailty, so i scrapoed the idea, and continued with the images provided for the brief.
-
+_ _ _
 
 ## Getting started
 
 **installing**
 
---clone the repo:
+Clone the repo: 
 
-git clone git@github.com: https://github.com/Voidwaker/Semester-Project1_Sigurd-Vaaler
+git clone https://github.com/Voidwaker/Semester-Project1_Sigurd-Vaaler
 
-install the dependencies: N/A npm install
+[[View the live website on Netlify](https://bejewelled-nasturtium-3723d5.netlify.app)](netlify link)
 
---running
+Running
 
-to run the app, run the following commands:
+Clone the repo
 
-npm run start
+Run repo in a code editor, I suggest using "VScode".
 
+Choose index.html and open in live server.
+_ _ _
 ### Contribution
 
 contributions are gladly apriciated, but i have one request: to the individual that does so, clone the code and add notes so i can reviwe any changes before they are commtied to the procest premanently. thansk!
-
+_ _ _
 ### Contact
 
 This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
 
 #### twitter: @situasjon
 #### email: sigurdvaaler@hotmail.com
-
+_ _ _
