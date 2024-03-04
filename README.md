@@ -1,6 +1,6 @@
 ![Skjermbilde 2024-02-21 124959](https://github.com/Voidwaker/Semester-Project1_Sigurd-Vaaler/assets/128046262/9e1041d8-51ba-4b5d-adc5-4bda4d0ba697)
 
-# community Sciience Museum
+# community Science Museum
 the first semester exame of our schoool year-
 this was built purly of html/css, as we not had learned javascrtipt yet.
 the brief was to build a website for a museum "community science museum" for childrens from 7-15 years old, the brief spessified that the site should dispaly the exhibits and opening hours
